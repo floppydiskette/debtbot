@@ -36,7 +36,7 @@ bot.once('spawn', () => {
             console.log(matches);
 
             let balance = Number(matches[0][0]);
-            if (balance > 0) { bot.chat(`/transfer oweth ${balance}`); };
+            if (balance > 0) { bot.chat(`/transfer oweth ${balance} funny`); };
             console.log(`TRANSFERRED ${balance} TO HUSKY!`);
         });
 
